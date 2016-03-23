@@ -132,7 +132,6 @@ namespace AtelierXNA
             IsCurrentPlayer = isCurrentPlayer;
             Port = port;
             IP = ip;
-            LampeDePoche = new LampeTorche(game, 5f, 45f);
         }
 
 
@@ -159,7 +158,7 @@ namespace AtelierXNA
             CaméraJeu = Game.Services.GetService(typeof(Caméra)) as Caméra;
             GestionnaireDeModèles = Game.Services.GetService(typeof(RessourcesManager<Model>)) as RessourcesManager<Model>;
             GestionnaireDeTextures = Game.Services.GetService(typeof(RessourcesManager<Texture2D>)) as RessourcesManager<Texture2D>;
-
+            LampeDePoche = Game.Services.GetService(typeof(LampeTorche)) as LampeTorche;
             CalculerMonde();
 
             Modele = GestionnaireDeModèles.Find(NomModel);

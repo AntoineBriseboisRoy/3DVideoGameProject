@@ -57,7 +57,7 @@ VertexShaderOutput VertexShaderSpotLight(VertexShaderInput EntreeVS)
 
 	// Transformation des sommets en fonction de la matrice MondeVueProjection
 	SortieVS.Position = mul(EntreeVS.Position, MondeVueProjection);
-	SortieVS.PositionPixel = mul(EntreeVS.Position, Monde);
+	SortieVS.PositionPixel = mul(EntreeVS.Position,Monde);
 
 	// Affectation (sans transformation) des coordonnées de texture qui seront interpolées par le GPU
 	SortieVS.CoordonneesTexture = EntreeVS.CoordonneesTexture;
@@ -91,14 +91,14 @@ float4 PixelShaderSpotLight(VertexShaderOutput EntreePS) : COLOR0
 	}
 
 
-	if (theta > Alpha || theta < -Alpha)
+	if ((theta > Alpha || theta < -Alpha) || Intensite < 0.5f)
 	{
 		couleurTexture *= 0.5f / (EntreePS.Distance);
 	}
 
 	else
 	{
-		couleurTexture *= Intensite / (EntreePS.Distance);
+		couleurTexture *= Intensite / (EntreePS.Distance); //COOL : * (sin(CalculerNorme(EntreePS.PositionPixel.xyz-PositionLookAt)));
 	}
 
 	return couleurTexture;

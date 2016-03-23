@@ -39,6 +39,7 @@ namespace AtelierXNA
             IntensitéInitiale = intensité;
             DuréeDeVieBatterie = duréeDeVieBatterie;
             TempsÉcouléeDepuisBatterieTrouvée = 0;
+            IntensitéBatterie = IntensitéInitiale;
         }
 
         protected override void LoadContent()
@@ -85,6 +86,7 @@ namespace AtelierXNA
                 {
                     Icône = BatterieCritique;
                 }
+
                 else
                 {
                     Icône = BatterieVide;

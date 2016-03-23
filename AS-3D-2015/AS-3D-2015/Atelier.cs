@@ -41,6 +41,7 @@ namespace AtelierXNA
         Server Serveur { get; set; }
         Lumière LumièreObjet { get; set; }
         GrilleCollision GrilleDeJeu { get; set; }
+        LampeTorche LampeDePoche { get; set; }
 
         public Atelier()
         {
@@ -73,13 +74,18 @@ namespace AtelierXNA
             GestionnaireDeCollisions = new CollisionManager(this);
             CaméraJeu = new Caméra(this);
             Serveur = new Server(this, PORT);
-            
+            LampeDePoche = new LampeTorche(this, 6f, 45f);
+
+            Services.AddService(typeof(LampeTorche),LampeDePoche);
             Components.Add(GestionSounds);
             Components.Add(GestionInput);
+            Components.Add(LampeDePoche);
             Components.Add(CaméraJeu);
             Components.Add(new Afficheur3D(this));
             Components.Add(CarteJeu);
             Components.Add(GrilleDeJeu);
+
+            
             Components.Add(new Zombie(this, "fml4", 1, new Vector3(-5.224495f / 2f, 0, -5.224495f / 2f), "Lambent_Femal", new Vector3(-MathHelper.PiOver2, 0, 0), INTERVALLE_MAJ_STANDARD, "zombies01", "Marche Zombie", 100f, 0));
             Components.Add(new Zombie(this, "fmj1", 1, new Vector3(5.224495f / 2f, 0, -5.224495f / 2f), "Lambent_Femal", new Vector3(-MathHelper.PiOver2, 0, 0), INTERVALLE_MAJ_STANDARD, "zombies01", "Default Take", 75f, 1));
             Components.Add(new Player(this, "Superboy", "Default Take", "Lambent_Femal", 1, new Vector3(-MathHelper.PiOver2, 0, 0), new Vector3(-5, 0.5f, -5), 15f, "jump", "landing", "walk", "walk_slow", PlayerIndex.One, true, PORT, IP));

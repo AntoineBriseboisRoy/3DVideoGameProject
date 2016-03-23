@@ -14,12 +14,12 @@ namespace AtelierXNA
       public float PuissanceSpéculaire { get; private set; }
       public float CarréDistanceLumière { get; set; }
       public Texture2D BumpMap { get; private set; }
-      public float Intensité { get; private set; }
+      public LampeTorche LampeDePoche { get; private set; }
 
 
 
       public MatériauÉclairé(Caméra caméraJeu, Lumière lumièreJeu, Texture2D bumpMap, Vector3 couleurAmbiante, Vector4 couleurDiffuse, 
-                             Vector3 couleurEmissive,Vector3 couleurSpéculaire, float puissanceSpéculaire, float intensité)
+                             Vector3 couleurEmissive,Vector3 couleurSpéculaire, float puissanceSpéculaire, LampeTorche lampe)
          :base(caméraJeu)
       {
          LumièreJeu = lumièreJeu;
@@ -29,7 +29,7 @@ namespace AtelierXNA
          CouleurLumièreEmissive = couleurEmissive;
          CouleurLumièreSpéculaire = couleurSpéculaire;
          PuissanceSpéculaire = puissanceSpéculaire;
-         Intensité = intensité;
+         LampeDePoche = lampe;
       }
 
       public override void UpdateMatériau(Vector3 position, Matrix monde)

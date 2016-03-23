@@ -123,7 +123,7 @@ namespace AtelierXNA
 
          effetLocal.Parameters["Alpha"].SetValue(MathHelper.Pi / 12f);
          effetLocal.Parameters["PositionLookAt"].SetValue(MatériauAffichage.CaméraJeu.CameraLookAt);
-         effetLocal.Parameters["Intensite"].SetValue(5f); ;
+         effetLocal.Parameters["Intensite"].SetValue(MatériauAffichage.LampeDePoche.IntensitéBatterie);
 
       }
 
