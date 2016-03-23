@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\Arial20.spritefont</Source>
+      <Name>Fonts\Arial20</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Fonts\Arial20.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>key.FBX</Source>
+      <Name>key</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\key.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Release\key_0.xml</Key>
+        <Value>2016-03-07T09:04:47.0865842-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\fmj1.fbx</Source>
+      <Name>Models\fmj1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\fmj1.xnb</Output>
+      <Time>2016-03-04T13:53:45.7544394-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\fmj1_0.xml</Key>
+        <Value>2016-03-07T09:04:51.8478472-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Textures\CielArrière.png</Source>
+      <Name>Textures\CielArrière</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielArrière.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielAvant.png</Source>
+      <Name>Textures\CielAvant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielAvant.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDroite.png</Source>
+      <Name>Textures\CielDroite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDroite.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielGauche.png</Source>
+      <Name>Textures\CielGauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielGauche.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDessus.png</Source>
+      <Name>Textures\CielDessus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\CielDessus.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Terrain.bmp</Source>
+      <Name>Textures\Terrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Terrain.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\old_brick_01.jpg</Source>
+      <Name>Textures\old_brick_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\old_brick_01.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ceiling.jpg</Source>
+      <Name>Textures\Ceiling</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Ceiling.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Floor.jpg</Source>
+      <Name>Textures\Floor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Floor.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Wall.jpg</Source>
+      <Name>Textures\Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Wall.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Labyrinthe.bmp</Source>
+      <Name>Textures\Labyrinthe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Labyrinthe.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\glitter.jpg</Source>
+      <Name>Textures\glitter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\glitter.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\gold.jpg</Source>
+      <Name>Textures\gold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\gold.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\lava.jpg</Source>
+      <Name>Textures\lava</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\lava.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\wood.jpg</Source>
+      <Name>Textures\wood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\wood.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Lambent_Femal.png</Source>
+      <Name>Textures\Lambent_Femal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Textures\Lambent_Femal.xnb</Output>
+      <Time>2016-02-19T13:58:16.6513914-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\landing.mp3</Source>
+      <Name>Sounds\landing</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\landing.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Songs\backgroundMusic.mp3</Source>
+      <Name>Songs\backgroundMusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Songs\backgroundMusic.xnb</Output>
+      <Extra>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Songs\backgroundMusic.wma</Extra>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\First_Sentence.mp3</Source>
+      <Name>Sounds\First_Sentence</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\First_Sentence.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\walk.wav</Source>
+      <Name>Sounds\walk</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\walk.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\jump.wav</Source>
+      <Name>Sounds\jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\jump.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\walk_slow.wav</Source>
+      <Name>Sounds\walk_slow</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\walk_slow.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies01.wav</Source>
+      <Name>Sounds\zombies01</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\zombies01.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies02.wav</Source>
+      <Name>Sounds\zombies02</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\zombies02.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies03.wav</Source>
+      <Name>Sounds\zombies03</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\zombies03.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies04.wav</Source>
+      <Name>Sounds\zombies04</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Sounds\zombies04.xnb</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>key.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Release\key_0.xml</Output>
+      <Time>2016-02-17T10:29:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\fml4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\fml4_0.xml</Output>
+      <Time>2016-03-01T16:42:52.9169938-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\fmj1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\fmj1_0.xml</Output>
+      <Time>2016-03-04T13:53:45.7544394-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\fml4.fbx</Source>
+      <Name>Models\fml4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\Models\fml4.xnb</Output>
+      <Time>2016-03-01T16:42:52.9169938-05:00</Time>
+      <Dependency>
+        <Key>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Release\Models\fml4_0.xml</Key>
+        <Value>2016-03-07T09:04:49.2356115-05:00</Value>
+      </Dependency>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{6895CAA9-AA34-4A9B-8233-2B7A511DA402}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2016-03-07T09:01:31.1813135-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-12-15T04:24:36.2748921-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

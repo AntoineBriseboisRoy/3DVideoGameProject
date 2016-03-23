@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Models\Superboy.fbx</Source>
+      <Name>Models\Superboy</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\Superboy.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\Superboy_0.xml</Key>
+        <Value>2016-03-23T09:54:51.1878367-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\key.FBX</Source>
+      <Name>Models\key</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\key.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\key_0.xml</Key>
+        <Value>2016-03-23T09:54:52.0565538-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\fml4.fbx</Source>
+      <Name>Models\fml4</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\fml4.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\fml4_0.xml</Key>
+        <Value>2016-03-23T09:54:55.496862-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\fmj1.fbx</Source>
+      <Name>Models\fmj1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\fmj1.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+      <Dependency>
+        <Key>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\fmj1_0.xml</Key>
+        <Value>2016-03-23T09:55:00.3356329-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Fonts\Arial20.spritefont</Source>
+      <Name>Fonts\Arial20</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Fonts\Arial20.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\menu.spritefont</Source>
+      <Name>Fonts\menu</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Fonts\menu.xnb</Output>
+      <Time>2016-03-21T12:40:24-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielArrière.png</Source>
+      <Name>Textures\CielArrière</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\CielArrière.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielAvant.png</Source>
+      <Name>Textures\CielAvant</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\CielAvant.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDroite.png</Source>
+      <Name>Textures\CielDroite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\CielDroite.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielGauche.png</Source>
+      <Name>Textures\CielGauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\CielGauche.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\CielDessus.png</Source>
+      <Name>Textures\CielDessus</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\CielDessus.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Terrain.bmp</Source>
+      <Name>Textures\Terrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Terrain.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\old_brick_01.jpg</Source>
+      <Name>Textures\old_brick_01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\old_brick_01.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Ceiling.jpg</Source>
+      <Name>Textures\Ceiling</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Ceiling.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Floor.jpg</Source>
+      <Name>Textures\Floor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Floor.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Wall.jpg</Source>
+      <Name>Textures\Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Wall.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Labyrinthe.bmp</Source>
+      <Name>Textures\Labyrinthe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Labyrinthe.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\glitter.jpg</Source>
+      <Name>Textures\glitter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\glitter.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\gold.jpg</Source>
+      <Name>Textures\gold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\gold.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\lava.jpg</Source>
+      <Name>Textures\lava</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\lava.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\wood.jpg</Source>
+      <Name>Textures\wood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\wood.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Lambent_Femal.png</Source>
+      <Name>Textures\Lambent_Femal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Lambent_Femal.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BackgroundTexture.jpg</Source>
+      <Name>Textures\BackgroundTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BackgroundTexture.xnb</Output>
+      <Time>2016-03-22T16:03:32-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\landing.mp3</Source>
+      <Name>Sounds\landing</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\landing.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Songs\backgroundMusic.mp3</Source>
+      <Name>Songs\backgroundMusic</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Songs\backgroundMusic.xnb</Output>
+      <Extra>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Songs\backgroundMusic.wma</Extra>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\First_Sentence.mp3</Source>
+      <Name>Sounds\First_Sentence</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\First_Sentence.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\walk.wav</Source>
+      <Name>Sounds\walk</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\walk.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\jump.wav</Source>
+      <Name>Sounds\jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\jump.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\walk_slow.wav</Source>
+      <Name>Sounds\walk_slow</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\walk_slow.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies01.wav</Source>
+      <Name>Sounds\zombies01</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies01.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies02.wav</Source>
+      <Name>Sounds\zombies02</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies02.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies03.wav</Source>
+      <Name>Sounds\zombies03</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies03.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\zombies04.wav</Source>
+      <Name>Sounds\zombies04</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies04.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SpotLight.fx</Source>
+      <Name>Effects\SpotLight</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Effects\SpotLight.xnb</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\Superboy.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\Superboy_0.xml</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\key.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\key_0.xml</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\fml4.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\fml4_0.xml</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\fmj1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Models\fmj1_0.xml</Output>
+      <Time>2016-03-16T10:49:46-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{6895CAA9-AA34-4A9B-8233-2B7A511DA402}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2016-03-23T08:10:43.1917985-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-01-27T08:26:21.1324268-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

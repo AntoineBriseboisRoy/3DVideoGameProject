@@ -1,0 +1,42 @@
+C:\Users\antoine\Desktop\Projet Prog\SkinningSample\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\antoine\Desktop\Projet Prog\SkinningSample\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\antoine\Desktop\Projet Prog\SkinningSample\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\antoine\Desktop\Projet Prog\SkinningSample\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\antoine\Desktop\Projet Prog\SkinningSample\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.csprojResolveAssemblyReference.cache
+C:\Users\antoine\Desktop\Projet Prog\SkinningSample\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\antoine\Desktop\Projet Prog\SkinningSample\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.csprojResolveAssemblyReference.cache
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-anim\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.csprojResolveAssemblyReference.cache
+C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.csprojResolveAssemblyReference.cache
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\antoine\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Samuel\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Samuel\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Samuel\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Samuel\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Samuel\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.csprojResolveAssemblyReference.cache
+C:\Users\Samuel\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Samuel\Desktop\Projet_Finale_Programmation-master\Projet finale Prog\AS-3D-2015\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
