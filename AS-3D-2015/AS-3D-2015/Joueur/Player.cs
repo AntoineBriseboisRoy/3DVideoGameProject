@@ -106,6 +106,7 @@ namespace AtelierXNA
         Caméra CaméraJeu { get; set; }
         PlayerIndex PlayerIndex { get; set; }
         Matrix MondeCamera { get; set; }
+        public LampeTorche LampeDePoche { get; private set; }
         #endregion
 
         public Player(Game game, string nomModel, string nomAnim, string nomTexture, float scale,
@@ -131,6 +132,7 @@ namespace AtelierXNA
             IsCurrentPlayer = isCurrentPlayer;
             Port = port;
             IP = ip;
+            LampeDePoche = new LampeTorche(game, 5f, 45f);
         }
 
 
@@ -246,7 +248,7 @@ namespace AtelierXNA
                     if (GestionCollisions.CollisionJoueurObjet(o.ZoneCollision, ZoneCollisionPowerUps))
                     {
                         Game.Components.Remove(c);
-                        Console.WriteLine("Objet acquis!");
+                        LampeDePoche.TempsÉcouléeDepuisBatterieTrouvée = 0;
                         break;
                     }
                 }

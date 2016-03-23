@@ -117,6 +117,7 @@
     <Compile Include="Bouton.cs" />
     <Compile Include="IGame.cs" />
     <Compile Include="IMenu.cs" />
+    <Compile Include="LampeTorche.cs" />
     <Compile Include="Joueur\PlayerInfo.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Networking\Serializer.cs" />

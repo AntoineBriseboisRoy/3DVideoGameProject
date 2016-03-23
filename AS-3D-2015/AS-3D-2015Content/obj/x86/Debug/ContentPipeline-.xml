@@ -241,7 +241,7 @@
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Effects\SpotLight.xnb</Output>
-      <Time>2016-03-23T11:23:59.6581757-04:00</Time>
+      <Time>2016-03-23T11:47:15.5277628-04:00</Time>
     </Item>
     <Item>
       <Source>Models\Superboy.fbx</Source>
@@ -279,6 +279,42 @@
       <Options>None</Options>
       <Output>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BgMenu.xnb</Output>
       <Time>2016-03-23T11:31:23.7084078-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BatterieCritique.png</Source>
+      <Name>Textures\BatterieCritique</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatterieCritique.xnb</Output>
+      <Time>2016-03-23T09:39:16.2695769-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BatterieMoyen.png</Source>
+      <Name>Textures\BatterieMoyen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatterieMoyen.xnb</Output>
+      <Time>2016-03-23T09:39:14.8184318-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BatteriePleine.png</Source>
+      <Name>Textures\BatteriePleine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatteriePleine.xnb</Output>
+      <Time>2016-03-23T09:39:13.0672567-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BatterieVide.png</Source>
+      <Name>Textures\BatterieVide</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatterieVide.xnb</Output>
+      <Time>2016-03-23T09:39:11.6071107-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -22,7 +22,7 @@ namespace AtelierXNA
         const float INTENSITÉ_LUMINEUSE = 5f;
         const float RAYON_LUMIÈRE = 6f;
         const int DIMENSION_TERRAIN = 256;
-
+        
         public bool EstManetteUtilisée { get; set; }
         GraphicsDeviceManager PériphériqueGraphique { get; set; }
         SpriteBatch GestionSprites { get; set; }
@@ -54,10 +54,8 @@ namespace AtelierXNA
 
         protected override void Initialize()
         {
-
             ÉtatJeu = GameState.MENU;
             EstManetteUtilisée = false;
-
             Vector3 positionCaméra = new Vector3(0, 20, 125);
             Vector3 cibleCaméra = new Vector3(0, 0, 0);
             LumièreObjet = new Lumière(this, positionCaméra, Vector3.One, RAYON_LUMIÈRE, INTENSITÉ_LUMINEUSE, Vector3.One, Vector4.One / 10);

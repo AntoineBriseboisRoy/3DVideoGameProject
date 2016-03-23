@@ -25,3 +25,7 @@ Content\Sounds\zombies03.xnb
 Content\Sounds\zombies04.xnb
 Content\Effects\SpotLight.xnb
 Content\Textures\BgMenu.xnb
+Content\Textures\BatterieCritique.xnb
+Content\Textures\BatterieMoyen.xnb
+Content\Textures\BatteriePleine.xnb
+Content\Textures\BatterieVide.xnb

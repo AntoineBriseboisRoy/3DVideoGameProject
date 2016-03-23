@@ -203,3 +203,7 @@ C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-
 C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\obj\x86\Debug\AS-3D-2015.exe
 C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\obj\x86\Debug\AS-3D-2015.pdb
 C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BgMenu.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatterieCritique.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatterieMoyen.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatteriePleine.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BatterieVide.xnb

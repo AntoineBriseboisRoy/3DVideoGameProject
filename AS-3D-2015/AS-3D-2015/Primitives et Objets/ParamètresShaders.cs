@@ -109,6 +109,7 @@ namespace AtelierXNA
          effetLocal.Parameters["Texture"].SetValue(infoModèle.Texture);
          effetLocal.Parameters["TextureActive"].SetValue(infoModèle.TextureActive);
       }
+       
 
       static void InitialiserParamètresShaderSpotLight(Effect effetLocal, InfoModèle infoModèle, MatériauÉclairé MatériauAffichage)
       {
@@ -120,8 +121,9 @@ namespace AtelierXNA
          effetLocal.Parameters["Texture"].SetValue(infoModèle.Texture);
          effetLocal.Parameters["TextureActive"].SetValue(infoModèle.TextureActive);
 
-         //effetLocal.Parameters["Direction"].SetValue(MatériauAffichage.CaméraJeu.CameraLookAt);
-         //effetLocal.Parameters["Alpha"].SetValue(MathHelper.PiOver4);
+         effetLocal.Parameters["Alpha"].SetValue(MathHelper.Pi / 12f);
+         effetLocal.Parameters["PositionLookAt"].SetValue(MatériauAffichage.CaméraJeu.CameraLookAt);
+         effetLocal.Parameters["Intensite"].SetValue(5f); ;
 
       }
 

@@ -23,6 +23,7 @@ namespace AtelierXNA
         float CarréDistanceLumière { get; set; }
         InfoModèle InfoSphère { get; set; }
         BoundingSphere SphèreDeCollision { get; set; }
+        float IntensitéTemp { get; set; }
 
         RessourcesManager<Texture2D> GestionnaireDeTextures { get; set; }
 
@@ -55,13 +56,15 @@ namespace AtelierXNA
             GestionnaireDeShaders = Game.Services.GetService(typeof(RessourcesManager<Effect>)) as RessourcesManager<Effect>;
             EffetAffichage = GestionnaireDeShaders.Find(NomEffetAffichage);
             TextureBumpMap = NomTextureBumpMap != null ? GestionnaireDeTextures.Find(NomTextureBumpMap) : null;
+            GérerLampeDePoche();
             MatériauAffichage = new MatériauÉclairé(CaméraJeu, LumièreJeu, TextureBumpMap, CouleurLumièreAmbiante, CouleurLumièreDiffuse,
-                                                    CouleurLumièreEmissive, CouleurLumièreSpéculaire, LumièreJeu.Intensité);
+                                                    CouleurLumièreEmissive, CouleurLumièreSpéculaire, LumièreJeu.Intensité,IntensitéTemp);
         }
 
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
+            GérerLampeDePoche();
             LumièreJeu.Position = CaméraJeu.Position;
         }
 
@@ -88,6 +91,22 @@ namespace AtelierXNA
                 GraphicsDevice.RasterizerState = old;
             }
 
+        }
+
+        void GérerLampeDePoche()
+        {
+            //foreach (GameComponent g in Game.Components)
+            //{
+            //    if (g is Player)
+            //    {
+            //        Player p = g as Player;
+
+            //        if (p.LampeDePoche.IntensitéBatterie > IntensitéTemp)
+            //        {
+            //            IntensitéTemp = p.LampeDePoche.IntensitéBatterie;
+            //        }
+            //    }
+            //}
         }
 
     }
