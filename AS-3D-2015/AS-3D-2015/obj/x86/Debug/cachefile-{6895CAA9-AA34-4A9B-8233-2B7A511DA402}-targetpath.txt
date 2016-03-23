@@ -4,21 +4,12 @@ Content\Models\fml4.xnb
 Content\Models\fmj1.xnb
 Content\Fonts\Arial20.xnb
 Content\Fonts\menu.xnb
-Content\Textures\CielArrière.xnb
-Content\Textures\CielAvant.xnb
-Content\Textures\CielDroite.xnb
-Content\Textures\CielGauche.xnb
-Content\Textures\CielDessus.xnb
 Content\Textures\Terrain.xnb
 Content\Textures\old_brick_01.xnb
 Content\Textures\Ceiling.xnb
 Content\Textures\Floor.xnb
 Content\Textures\Wall.xnb
 Content\Textures\Labyrinthe.xnb
-Content\Textures\glitter.xnb
-Content\Textures\gold.xnb
-Content\Textures\lava.xnb
-Content\Textures\wood.xnb
 Content\Textures\Lambent_Femal.xnb
 Content\Textures\BackgroundTexture.xnb
 Content\Sounds\landing.xnb
@@ -33,3 +24,4 @@ Content\Sounds\zombies02.xnb
 Content\Sounds\zombies03.xnb
 Content\Sounds\zombies04.xnb
 Content\Effects\SpotLight.xnb
+Content\Textures\BgMenu.xnb

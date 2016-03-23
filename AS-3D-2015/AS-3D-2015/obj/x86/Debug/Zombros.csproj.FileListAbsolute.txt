@@ -168,3 +168,38 @@ C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\
 C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Fonts\menu.xnb
 C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BackgroundTexture.xnb
 C:\Users\Samuel\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\Superboy.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\key.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\fml4.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Models\fmj1.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Fonts\Arial20.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Fonts\menu.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Terrain.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\old_brick_01.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Ceiling.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Floor.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Wall.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Labyrinthe.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\Lambent_Femal.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BackgroundTexture.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\landing.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Songs\backgroundMusic.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\First_Sentence.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\walk.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\jump.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\walk_slow.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies01.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies02.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies03.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Sounds\zombies04.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Effects\SpotLight.xnb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Songs\backgroundMusic.wma
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\AS-3D-2015.exe
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\AS-3D-2015.pdb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\SkinnedModel.dll
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Zombros.csprojResolveAssemblyReference.cache
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\obj\x86\Debug\AS-3D-2015.exe
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\obj\x86\Debug\AS-3D-2015.pdb
+C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015\bin\x86\Debug\Content\Textures\BgMenu.xnb

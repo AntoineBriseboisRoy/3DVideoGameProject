@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
+      <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -44352,7 +44352,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Material__30341</Name>
       <Identity>
-        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -44365,7 +44365,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>Material__30342</Name>
       <Identity>
-        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -44378,7 +44378,7 @@
     <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
       <Name>Material__30339</Name>
       <Identity>
-        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -44391,7 +44391,7 @@
     <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
       <Name>Material__30343</Name>
       <Identity>
-        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
+        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015Content\Models\fmj1.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

@@ -354,9 +354,9 @@ namespace AtelierXNA
             bool entend = false;
             foreach (GameComponent c in Game.Components)
             {
-                if (c is Caméra)
+                if (c is Player)
                 {
-                    Caméra joueur = c as Caméra;
+                    Player joueur = c as Player;
                     entend = GestionCollisions.DétectionJoueur(ZoneOuïe, joueur.ZoneBruit);
 
                     if (entend)

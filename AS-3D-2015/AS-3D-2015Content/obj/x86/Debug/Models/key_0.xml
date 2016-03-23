@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>Ellipse01</Name>
     <Identity>
-      <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\Models\key.FBX</SourceFilename>
+      <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015Content\Models\key.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>
@@ -29,7 +29,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>negro</Name>
       <Identity>
-        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet_Finale_Programmation\Projet finale Prog\AS-3D-2015\AS-3D-2015Content\Models\key.FBX</SourceFilename>
+        <SourceFilename>C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\AS-3D-2015Content\Models\key.FBX</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

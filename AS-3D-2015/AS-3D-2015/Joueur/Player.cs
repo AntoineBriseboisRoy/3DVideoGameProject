@@ -75,7 +75,6 @@ namespace AtelierXNA
         GamePadState CurrentGamePad { get; set; }
         GamePadState PrevGamePad { get; set; }
 
-        GrilleCollision MaGrille { get; set; }
         SoundManager GestionSons { get; set; }
         InputManager GestionInput { get; set; }
         CollisionManager GestionCollisions { get; set; }
@@ -137,29 +136,30 @@ namespace AtelierXNA
 
         public override void Initialize()
         {
-            GestionInput = Game.Services.GetService(typeof(InputManager)) as InputManager;
-            GestionSons = Game.Services.GetService(typeof(SoundManager)) as SoundManager;
-            GestionCollisions = Game.Services.GetService(typeof(CollisionManager)) as CollisionManager;
-            MaGrille = Game.Services.GetService(typeof(GrilleCollision)) as GrilleCollision;
-            CaméraJeu = Game.Services.GetService(typeof(Caméra)) as Caméra;
-            GestionnaireDeModèles = Game.Services.GetService(typeof(RessourcesManager<Model>)) as RessourcesManager<Model>;
-            GestionnaireDeTextures = Game.Services.GetService(typeof(RessourcesManager<Texture2D>)) as RessourcesManager<Texture2D>;
             PeutSauter = true;
             SonDeMarcheActivé = true;
             Projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4,
                          Game.GraphicsDevice.Viewport.AspectRatio, NEAR_PLANE_DISTANCE, FAR_PLANE_DISTANCE);
             PrevGamePad = GamePad.GetState(PlayerIndex);
-
             PreviousMouseState = Mouse.GetState();
-
             Frustum = new BoundingFrustum(Matrix.Multiply(View, Projection));
             ZoneBruit = new BoundingSphere(Position, RAYON_ZONE_BRUIT);
             ZoneCollisionPowerUps = new BoundingSphere(Position, RAYON_COLLISION);
-            CalculerMonde();
+
+
             base.Initialize();
         }
         protected override void LoadContent()
         {
+            GestionInput = Game.Services.GetService(typeof(InputManager)) as InputManager;
+            GestionSons = Game.Services.GetService(typeof(SoundManager)) as SoundManager;
+            GestionCollisions = Game.Services.GetService(typeof(CollisionManager)) as CollisionManager;
+            CaméraJeu = Game.Services.GetService(typeof(Caméra)) as Caméra;
+            GestionnaireDeModèles = Game.Services.GetService(typeof(RessourcesManager<Model>)) as RessourcesManager<Model>;
+            GestionnaireDeTextures = Game.Services.GetService(typeof(RessourcesManager<Texture2D>)) as RessourcesManager<Texture2D>;
+
+            CalculerMonde();
+
             Modele = GestionnaireDeModèles.Find(NomModel);
             TransformationsModèle = new Matrix[Modele.Bones.Count];
             Habit = GestionnaireDeTextures.Find(NomTexture);
@@ -177,50 +177,6 @@ namespace AtelierXNA
 
             AnimationPlayer.StartClip(clip);
             base.LoadContent();
-        }
-
-        private void PreviewMove(Vector3 prochainMouvement)
-        {
-            Matrix rotate = Matrix.CreateRotationY(Rotation.Y);
-            Vector3 mouvement = new Vector3(prochainMouvement.X, prochainMouvement.Y, prochainMouvement.Z);
-            mouvement = Vector3.Transform(mouvement, rotate);
-            BoundingSphere zoneCollisionX = new BoundingSphere(new Vector3(Position.X + mouvement.X, Position.Y, Position.Z), RAYON_COLLISION);
-            BoundingSphere zoneCollisionZ = new BoundingSphere(new Vector3(Position.X, Position.Y, Position.Z + mouvement.Z), RAYON_COLLISION);
-
-            foreach (GameComponent c in Game.Components)
-            {
-                if (EstEnCollision(c, zoneCollisionX))
-                {
-                    Position = new Vector3(Position.X - mouvement.X, Position.Y, Position.Z);
-                }
-                if (EstEnCollision(c, zoneCollisionZ))
-                {
-                    Position = new Vector3(Position.X, Position.Y, Position.Z - mouvement.Z);
-                }
-            }
-            SonDeMarcheActivé = true;
-            Position += mouvement;
-        }
-
-
-        private void Bouger(Vector3 scale)
-        {
-            PreviewMove(scale);
-        }
-
-        private void CalculerMonde()
-        {
-            Monde = Matrix.Identity *
-                    Matrix.CreateScale(Scale) *
-                    Matrix.CreateFromYawPitchRoll(Rotation.Y, -MathHelper.PiOver2, Rotation.Z) *
-                    Matrix.CreateTranslation(new Vector3(Position.X, Position.Y, Position.Z));
-            MondeCamera = Matrix.Identity *
-                   Matrix.CreateScale(Scale) *
-                   Matrix.CreateFromYawPitchRoll(Rotation.Y, Rotation.X, Rotation.Z) *
-                   Matrix.CreateTranslation(new Vector3(Position.X, Position.Y + 0.3f, Position.Z));
-            Matrix rotationMatrix = Matrix.CreateRotationX(RotationCamera.X) * Matrix.CreateRotationY(RotationCamera.Y);
-            Vector3 lookAtOffset = Vector3.Transform(Vector3.UnitZ, rotationMatrix);
-            CaméraJeu.CameraUpdate(MondeCamera, lookAtOffset, Position);
         }
         public override void Update(GameTime gameTime)
         {
@@ -304,7 +260,72 @@ namespace AtelierXNA
             CalculerMonde();
             base.Update(gameTime);
         }
+        public override void Draw(GameTime gameTime)
+        {
+            Matrix[] bones = AnimationPlayer.GetSkinTransforms();
 
+            foreach (ModelMesh mesh in Modele.Meshes)
+            {
+                Matrix mondeLocal = TransformationsModèle[mesh.ParentBone.Index] * Monde;
+                Modele.CopyAbsoluteBoneTransformsTo(TransformationsModèle);
+                foreach (SkinnedEffect effect in mesh.Effects)
+                {
+                    effect.SetBoneTransforms(bones);
+
+                    effect.View = CaméraJeu.View;
+                    effect.Projection = CaméraJeu.Projection;
+                    effect.World = mondeLocal;
+                    effect.EnableDefaultLighting();
+
+                    effect.SpecularColor = new Vector3(0.25f);
+                    effect.SpecularPower = 16;
+                    effect.Texture = Habit;
+
+                }
+                mesh.Draw();
+            }
+        }
+
+        void PreviewMove(Vector3 prochainMouvement)
+        {
+            Matrix rotate = Matrix.CreateRotationY(Rotation.Y);
+            Vector3 mouvement = new Vector3(prochainMouvement.X, prochainMouvement.Y, prochainMouvement.Z);
+            mouvement = Vector3.Transform(mouvement, rotate);
+            BoundingSphere zoneCollisionX = new BoundingSphere(new Vector3(Position.X + mouvement.X, Position.Y, Position.Z), RAYON_COLLISION);
+            BoundingSphere zoneCollisionZ = new BoundingSphere(new Vector3(Position.X, Position.Y, Position.Z + mouvement.Z), RAYON_COLLISION);
+
+            foreach (GameComponent c in Game.Components)
+            {
+                if (EstEnCollision(c, zoneCollisionX))
+                {
+                    Position = new Vector3(Position.X - mouvement.X, Position.Y, Position.Z);
+                }
+                if (EstEnCollision(c, zoneCollisionZ))
+                {
+                    Position = new Vector3(Position.X, Position.Y, Position.Z - mouvement.Z);
+                }
+            }
+            SonDeMarcheActivé = true;
+            Position += mouvement;
+        }
+        void Bouger(Vector3 scale)
+        {
+            PreviewMove(scale);
+        }
+        void CalculerMonde()
+        {
+            Monde = Matrix.Identity *
+                    Matrix.CreateScale(Scale) *
+                    Matrix.CreateFromYawPitchRoll(Rotation.Y, -MathHelper.PiOver2, Rotation.Z) *
+                    Matrix.CreateTranslation(new Vector3(Position.X, Position.Y, Position.Z));
+            MondeCamera = Matrix.Identity *
+                   Matrix.CreateScale(Scale) *
+                   Matrix.CreateFromYawPitchRoll(Rotation.Y, Rotation.X, Rotation.Z) *
+                   Matrix.CreateTranslation(new Vector3(Position.X, Position.Y + 0.3f, Position.Z));
+            Matrix rotationMatrix = Matrix.CreateRotationX(RotationCamera.X) * Matrix.CreateRotationY(RotationCamera.Y);
+            Vector3 lookAtOffset = Vector3.Transform(Vector3.UnitZ, rotationMatrix);
+            CaméraJeu.CameraUpdate(MondeCamera, lookAtOffset, Position);
+        }
         void GérerControlePC(float tempsÉcoulé)
         {
             float deltaX, deltaY;
@@ -365,8 +386,14 @@ namespace AtelierXNA
             Mouse.SetPosition(Game.GraphicsDevice.Viewport.Width / 2, Game.GraphicsDevice.Viewport.Height / 2);
             PreviousMouseState = CurrentMouseState;
         }
-
-        #region GérerManette
+        int GérerBouton(Buttons b)
+        {
+            return GestionInput.EstBoutonEnfoncée(b) ? 1 : 0;
+        }
+        int GérerTouche(Keys k)
+        {
+            return GestionInput.EstEnfoncée(k) ? 1 : 0;
+        }
         void GérerManette(float tempsÉcoulé)
         {
             float deltaX, deltaY;
@@ -382,8 +409,8 @@ namespace AtelierXNA
                 PeutSauter = false;
             }
             //Gérer les déplacements du joystick droit
-            CameraLookAt.Y += GérerTouche(Buttons.RightThumbstickUp) - GérerTouche(Buttons.RightThumbstickDown);
-            CameraLookAt.X += GérerTouche(Buttons.RightThumbstickRight) - GérerTouche(Buttons.RightThumbstickLeft);
+            CameraLookAt.Y += GérerBouton(Buttons.RightThumbstickUp) - GérerBouton(Buttons.RightThumbstickDown);
+            CameraLookAt.X += GérerBouton(Buttons.RightThumbstickRight) - GérerBouton(Buttons.RightThumbstickLeft);
             deltaY = CameraLookAt.Y - (Game.GraphicsDevice.Viewport.Height / 2f);
             deltaX = CameraLookAt.X - (Game.GraphicsDevice.Viewport.Width / 2f);
             GamePadRotationBuffer.Y += GamePad.GetState(PlayerIndex).ThumbSticks.Right.Y * 0.01f * deltaY * tempsÉcoulé;
@@ -429,16 +456,7 @@ namespace AtelierXNA
             deltaX = 0;
             deltaY = 0;
         }
-        #endregion
-        private int GérerTouche(Buttons b)
-        {
-            return GestionInput.EstBoutonEnfoncée(b) ? 1 : 0;
-        }
-        private int GérerTouche(Keys k)
-        {
-            return GestionInput.EstEnfoncée(k) ? 1 : 0;
-        }
-        public bool EstEnCollision(object autreObjet, BoundingSphere zoneCollision)
+        bool EstEnCollision(object autreObjet, BoundingSphere zoneCollision)
         {
             bool estEnCollision = false;
 
@@ -475,32 +493,5 @@ namespace AtelierXNA
             return estEnCollision;
         }
 
-
-
-        public override void Draw(GameTime gameTime)
-        {
-            Matrix[] bones = AnimationPlayer.GetSkinTransforms();
-
-            foreach (ModelMesh mesh in Modele.Meshes)
-            {
-                Matrix mondeLocal = TransformationsModèle[mesh.ParentBone.Index] * Monde;
-                Modele.CopyAbsoluteBoneTransformsTo(TransformationsModèle);
-                foreach (SkinnedEffect effect in mesh.Effects)
-                {
-                    effect.SetBoneTransforms(bones);
-
-                    effect.View = CaméraJeu.View;
-                    effect.Projection = CaméraJeu.Projection;
-                    effect.World = mondeLocal;
-                    effect.EnableDefaultLighting();
-
-                    effect.SpecularColor = new Vector3(0.25f);
-                    effect.SpecularPower = 16;
-                    effect.Texture = Habit;
-
-                }
-                mesh.Draw();
-            }
-        }
     }
 }

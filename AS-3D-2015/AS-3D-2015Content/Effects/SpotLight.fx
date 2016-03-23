@@ -92,7 +92,7 @@ float4 PixelShaderSpotLight(VertexShaderOutput EntreePS) : COLOR0
 	if (EntreePS.Distance > 0)
 	{
 
-		couleurTexture *= 1.5f / (EntreePS.Distance);
+		couleurTexture *= 1 / (EntreePS.Distance);
 	}
 
 	return couleurTexture;
