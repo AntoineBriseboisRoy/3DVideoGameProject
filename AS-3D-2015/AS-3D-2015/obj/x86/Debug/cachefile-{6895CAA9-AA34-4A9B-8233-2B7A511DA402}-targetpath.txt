@@ -12,6 +12,11 @@ Content\Textures\Wall.xnb
 Content\Textures\Labyrinthe.xnb
 Content\Textures\Lambent_Femal.xnb
 Content\Textures\BackgroundTexture.xnb
+Content\Textures\BgMenu.xnb
+Content\Textures\BatterieCritique.xnb
+Content\Textures\BatterieMoyen.xnb
+Content\Textures\BatteriePleine.xnb
+Content\Textures\BatterieVide.xnb
 Content\Sounds\landing.xnb
 Content\Songs\backgroundMusic.xnb
 Content\Songs\backgroundMusic.wma
@@ -24,8 +29,3 @@ Content\Sounds\zombies02.xnb
 Content\Sounds\zombies03.xnb
 Content\Sounds\zombies04.xnb
 Content\Effects\SpotLight.xnb
-Content\Textures\BgMenu.xnb
-Content\Textures\BatterieCritique.xnb
-Content\Textures\BatterieMoyen.xnb
-Content\Textures\BatteriePleine.xnb
-Content\Textures\BatterieVide.xnb

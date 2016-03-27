@@ -34,3 +34,9 @@ C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\Skinne
 C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
 C:\Users\201422914\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\ca0lhi\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\ca0lhi\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\ca0lhi\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\obj\x86\Debug\SkinnedModelWindows.csprojResolveAssemblyReference.cache
+C:\Users\ca0lhi\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ca0lhi\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\ca0lhi\Documents\GitHub\Projet-Final-Programmation\AS-3D-2015\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb

@@ -16,16 +16,23 @@ namespace AtelierXNA
         float TempsTotal { get; set; }
         Vector3 RotationModel { get; set; }
         public string NomModèle { get; set; }
+        int Port { get; set; }
+        string IP { get; set; }
 
         public BoundingSphere ZoneCollision { get; private set; }
 
-        public ObjetTournoyant(Game jeu, String nomModèle, float échelleInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, float intervalleMAJ)
+        public ObjetTournoyant(Game jeu, String nomModèle, float échelleInitiale, Vector3 rotationInitiale, Vector3 positionInitiale, float intervalleMAJ, int port, string ip, bool isResponsible)
             : base(jeu, nomModèle, échelleInitiale, rotationInitiale, positionInitiale)
         {
             IntervalleMAJ = intervalleMAJ;
             RotationInitiale = rotationInitiale;
             PositionInitiale = positionInitiale;
             NomModèle = nomModèle;
+            IP = ip;
+            if (isResponsible)
+            {
+                ObjetTournoyantInfo nouvObj = new ObjetTournoyantInfo(PositionInitiale, RotationInitiale, NomModèle, false, true, Port, IP);
+            }
         }
 
         public override void Initialize()

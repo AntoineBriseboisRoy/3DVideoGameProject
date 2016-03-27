@@ -261,6 +261,7 @@ namespace AtelierXNA
             CalculerMonde();
             base.Update(gameTime);
         }
+
         public override void Draw(GameTime gameTime)
         {
             Matrix[] bones = AnimationPlayer.GetSkinTransforms();
@@ -462,7 +463,7 @@ namespace AtelierXNA
             bool estEnCollision = false;
 
 
-            if (autreObjet is CubeColoré)
+            if (autreObjet is CubeColoré)// && !estEnCollision)
             {
                 CubeColoré mur = autreObjet as CubeColoré;
                 estEnCollision = GestionCollisions.CollisionJoueurMur(zoneCollision, mur);

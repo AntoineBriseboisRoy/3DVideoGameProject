@@ -8,7 +8,7 @@ namespace AtelierXNA
 {
     public class ObjetDeBase : Microsoft.Xna.Framework.DrawableGameComponent, IGame
    {
-      string NomModèle { get; set; }
+      protected string NomModèle { get; private set; }
       RessourcesManager<Model> GestionnaireDeModèles { get; set; }
       Caméra CaméraJeu { get; set; }
       protected float Échelle { get; set; }

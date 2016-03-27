@@ -44,10 +44,6 @@ namespace AtelierXNA
             TypeBouton = typeBouton;
         }
 
-        /// <summary>
-        /// Allows the game component to perform any initialization it needs to before starting
-        /// to run.  This is where it can query for any required services and load content.
-        /// </summary>
         public override void Initialize()
         {
             Position = new Vector2((Game.Window.ClientBounds.Width / 2) - Font.MeasureString(Texte).X / 2,
@@ -57,16 +53,13 @@ namespace AtelierXNA
             base.Initialize();
         }
 
-        /// <summary>
-        /// Allows the game component to update itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
             Couleur = ContientSouris()? CouleurClic:CouleurNonClic;
 
             base.Update(gameTime);
         }
+
         public override void Draw(GameTime gameTime)
         {
 
@@ -74,10 +67,12 @@ namespace AtelierXNA
 
             base.Draw(gameTime);
         }
+
         public bool ContientSouris()
         {
             return RectangleBouton.Contains(GestionInput.GetPositionSouris());
         }
+
         public void Clic()
         {
             switch (TypeBouton)
@@ -100,15 +95,40 @@ namespace AtelierXNA
                             (gc as DrawableGameComponent).Visible = false;
                         }
                     }
+
+                    foreach (GameComponent gc in Game.Components.Where(x => x is Server))
+                    {
+                        Game.Components.Remove(gc);
+                    }
                     break;
+
                 case TypeBouton.DEUX_JOUEUR:
+                    Game.IsMouseVisible = false;
+                    foreach (GameComponent gc in Game.Components.Where(x => x is IGame))
+                    {
+                        gc.Enabled = true;
+                        if (gc is DrawableGameComponent)
+                        {
+                            (gc as DrawableGameComponent).Visible = true;
+                        }
+                    }
+                    foreach (GameComponent gc in Game.Components.Where(x => x is IMenu))
+                    {
+                        gc.Enabled = false;
+                        if (gc is DrawableGameComponent)
+                        {
+                            (gc as DrawableGameComponent).Visible = false;
+                        }
+                    }
                     break;
+
                 case TypeBouton.CONTROLE:
                     Texte = (Texte == "Utiliser la manette Xbox 360") ? "Utiliser la souris et le clavier" : "Utiliser la manette Xbox 360";
                     Position = new Vector2((Game.Window.ClientBounds.Width / 2) - Font.MeasureString(Texte).X / 2,
                     (Game.Window.ClientBounds.Height / 2) - Font.LineSpacing * NB_BOUTON + ((Font.LineSpacing + 5) * Indice));
                     RectangleBouton = new Rectangle((int)Position.X, (int)Position.Y, (int)Font.MeasureString(Texte).X, (int)Font.MeasureString(Texte).Y);
                     break;
+
                 case TypeBouton.QUITTER:
                     Game.Exit();
                     break;

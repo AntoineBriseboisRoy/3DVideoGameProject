@@ -194,7 +194,7 @@ namespace AtelierXNA
 
             //ShouldDraw = CaméraJeu.Frustum.Intersects(ZoneCollision) && (Vector3.Distance(Position, CaméraJeu.Position) <= 15 * Delta.X);
 
-            ZombieInfo z = new ZombieInfo(Position, Rotation, NuméroIdentification);
+            ZombieInfo z = new ZombieInfo(Position, Rotation, NuméroIdentification, NomModèle, Échelle, NomTexture, IntervalleMAJ, Grognement, NB_PAS, NomAnim);
             base.Update(gameTime);
         }
         void EffectuerMiseÀJour()

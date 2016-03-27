@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
@@ -11,15 +12,18 @@ namespace AtelierXNA
         private static Thread TthEcoute { get; set; }
         bool IsServer { get; set; }
         Player JoueurDeux { get; set; }
+        ObjetTournoyant Clé { get; set; }
         int Port { get; set; }
         Game Jeu { get; set; }
+        List<Zombie> BandeDeZombies { get; set; }
 
         public Server(Game game, int port)
-            :base(game)
+            : base(game)
         {
             Port = port;
             Jeu = game;
-            
+            BandeDeZombies = new List<Zombie>();
+
             TthEcoute = new Thread(new ThreadStart(Ecouter));
             TthEcoute.Start();
         }
@@ -50,14 +54,34 @@ namespace AtelierXNA
                         JoueurDeux.PreviousPosition = cam.PreviousPosition;
                         JoueurDeux.Rotation = cam.Rotation;
                     }
-                    //if(c is ZombieInfo)
-                    //{
-                    //    ZombieInfo z = c as ZombieInfo;
-                    //}
-                    //if (c is ObjetTournoyantInfo)
-                    //{
-                    //    ObjetTournoyantInfo o = c as ObjetTournoyantInfo;
-                    //}
+                    if (c is ZombieInfo)
+                    {
+                        ZombieInfo z = c as ZombieInfo;
+                        if (z.ShouldCreate)
+                        {
+                            BandeDeZombies.Add(new Zombie(Game, z.NomModèle, z.ÉchelleInitiale, z.Position, z.NomTexture, z.Rotation, z.IntervalleMAJ, z.Grognement, z.NomAnim, z.Vitesse, z.Numéro));
+                        }
+                        else
+                        {
+                            BandeDeZombies[z.Numéro].Rotation = z.Rotation;
+                            BandeDeZombies[z.Numéro].Position = z.Position;
+                        }
+
+                    }
+                    if (c is ObjetTournoyantInfo)
+                    {
+                        ObjetTournoyantInfo o = c as ObjetTournoyantInfo;
+                        if (o.ShouldCreate)
+                        {
+                            Clé = new ObjetTournoyant(Jeu, "key", 0.01f, o.Rotation, o.Position, 1 / 60f, Port, "", false);
+                            Game.Components.Add(Clé);
+                        }
+                        else if (o.ShouldRemove)
+                        {
+                            Game.Components.Remove(Clé);
+                        }
+
+                    }
                 }
             }
         }

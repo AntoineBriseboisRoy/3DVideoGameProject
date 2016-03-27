@@ -35,8 +35,8 @@ namespace AtelierXNA
         RessourcesManager<SoundEffect> GestionnaireDeSoundEffect { get; set; }
         RessourcesManager<Song> GestionnaireMusique { get; set; }
         CollisionManager GestionnaireDeCollisions { get; set; }
-        public InputManager GestionInput { get; private set; }
-        public SoundManager GestionSounds { get; private set; }
+        InputManager GestionInput { get; set; }
+        SoundManager GestionSounds { get; set; }
         Caméra CaméraJeu { get; set; }
         Server Serveur { get; set; }
         Lumière LumièreObjet { get; set; }

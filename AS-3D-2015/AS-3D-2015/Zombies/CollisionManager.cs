@@ -77,7 +77,7 @@ namespace AtelierXNA
         public bool CollisionMonstreMonstre(BoundingSphere zoneCollZombieA, BoundingSphere zoneCollZombieB)
         {
             Vector3 distance = zoneCollZombieA.Center - zoneCollZombieB.Center;
-            
+
             float normeDist = distance.Length();
             float somme = zoneCollZombieA.Radius + zoneCollZombieB.Radius;
 
